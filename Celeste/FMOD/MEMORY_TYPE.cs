@@ -1,0 +1,30 @@
+﻿using System;
+
+namespace FMOD
+{
+	// Token: 0x0200000D RID: 13
+	[Flags]
+	public enum MEMORY_TYPE : uint
+	{
+		// Token: 0x04000098 RID: 152
+		NORMAL = 0U,
+		// Token: 0x04000099 RID: 153
+		STREAM_FILE = 1U,
+		// Token: 0x0400009A RID: 154
+		STREAM_DECODE = 2U,
+		// Token: 0x0400009B RID: 155
+		SAMPLEDATA = 4U,
+		// Token: 0x0400009C RID: 156
+		DSP_BUFFER = 8U,
+		// Token: 0x0400009D RID: 157
+		PLUGIN = 16U,
+		// Token: 0x0400009E RID: 158
+		XBOX360_PHYSICAL = 1048576U,
+		// Token: 0x0400009F RID: 159
+		PERSISTENT = 2097152U,
+		// Token: 0x040000A0 RID: 160
+		SECONDARY = 4194304U,
+		// Token: 0x040000A1 RID: 161
+		ALL = 4294967295U
+	}
+}

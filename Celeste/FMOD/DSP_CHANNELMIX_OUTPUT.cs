@@ -1,0 +1,25 @@
+﻿using System;
+
+namespace FMOD
+{
+	// Token: 0x020000AE RID: 174
+	public enum DSP_CHANNELMIX_OUTPUT
+	{
+		// Token: 0x04000373 RID: 883
+		DEFAULT,
+		// Token: 0x04000374 RID: 884
+		ALLMONO,
+		// Token: 0x04000375 RID: 885
+		ALLSTEREO,
+		// Token: 0x04000376 RID: 886
+		ALLQUAD,
+		// Token: 0x04000377 RID: 887
+		ALL5POINT1,
+		// Token: 0x04000378 RID: 888
+		ALL7POINT1,
+		// Token: 0x04000379 RID: 889
+		ALLLFE,
+		// Token: 0x0400037A RID: 890
+		ALL7POINT1POINT4
+	}
+}

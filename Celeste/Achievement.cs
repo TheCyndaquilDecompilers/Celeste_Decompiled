@@ -1,0 +1,73 @@
+﻿using System;
+
+namespace Celeste
+{
+	// Token: 0x0200024C RID: 588
+	public enum Achievement
+	{
+		// Token: 0x04000E45 RID: 3653
+		CH1,
+		// Token: 0x04000E46 RID: 3654
+		CH2,
+		// Token: 0x04000E47 RID: 3655
+		CH3,
+		// Token: 0x04000E48 RID: 3656
+		CH4,
+		// Token: 0x04000E49 RID: 3657
+		CH5,
+		// Token: 0x04000E4A RID: 3658
+		CH6,
+		// Token: 0x04000E4B RID: 3659
+		CH7,
+		// Token: 0x04000E4C RID: 3660
+		STRB1,
+		// Token: 0x04000E4D RID: 3661
+		STRB2,
+		// Token: 0x04000E4E RID: 3662
+		STRB3,
+		// Token: 0x04000E4F RID: 3663
+		CASS,
+		// Token: 0x04000E50 RID: 3664
+		ONEUP,
+		// Token: 0x04000E51 RID: 3665
+		PICO8,
+		// Token: 0x04000E52 RID: 3666
+		HEART1,
+		// Token: 0x04000E53 RID: 3667
+		HEART2,
+		// Token: 0x04000E54 RID: 3668
+		HEART3,
+		// Token: 0x04000E55 RID: 3669
+		HEART4,
+		// Token: 0x04000E56 RID: 3670
+		HEART5,
+		// Token: 0x04000E57 RID: 3671
+		HEART6,
+		// Token: 0x04000E58 RID: 3672
+		HEART7,
+		// Token: 0x04000E59 RID: 3673
+		HEART8,
+		// Token: 0x04000E5A RID: 3674
+		BSIDE1,
+		// Token: 0x04000E5B RID: 3675
+		BSIDE2,
+		// Token: 0x04000E5C RID: 3676
+		BSIDE3,
+		// Token: 0x04000E5D RID: 3677
+		BSIDE4,
+		// Token: 0x04000E5E RID: 3678
+		BSIDE5,
+		// Token: 0x04000E5F RID: 3679
+		BSIDE6,
+		// Token: 0x04000E60 RID: 3680
+		BSIDE7,
+		// Token: 0x04000E61 RID: 3681
+		BSIDE8,
+		// Token: 0x04000E62 RID: 3682
+		CSIDES,
+		// Token: 0x04000E63 RID: 3683
+		FAREWELL,
+		// Token: 0x04000E64 RID: 3684
+		WOW
+	}
+}

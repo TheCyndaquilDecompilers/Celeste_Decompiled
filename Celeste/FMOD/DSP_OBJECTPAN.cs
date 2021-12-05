@@ -1,0 +1,27 @@
+﻿using System;
+
+namespace FMOD
+{
+	// Token: 0x020000B2 RID: 178
+	public enum DSP_OBJECTPAN
+	{
+		// Token: 0x040003C8 RID: 968
+		_3D_POSITION,
+		// Token: 0x040003C9 RID: 969
+		_3D_ROLLOFF,
+		// Token: 0x040003CA RID: 970
+		_3D_MIN_DISTANCE,
+		// Token: 0x040003CB RID: 971
+		_3D_MAX_DISTANCE,
+		// Token: 0x040003CC RID: 972
+		_3D_EXTENT_MODE,
+		// Token: 0x040003CD RID: 973
+		_3D_SOUND_SIZE,
+		// Token: 0x040003CE RID: 974
+		_3D_MIN_EXTENT,
+		// Token: 0x040003CF RID: 975
+		OVERALL_GAIN,
+		// Token: 0x040003D0 RID: 976
+		OUTPUTGAIN
+	}
+}

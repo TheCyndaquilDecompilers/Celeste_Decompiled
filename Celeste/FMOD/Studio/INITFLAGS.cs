@@ -1,0 +1,22 @@
+﻿using System;
+
+namespace FMOD.Studio
+{
+	// Token: 0x020000CE RID: 206
+	[Flags]
+	public enum INITFLAGS : uint
+	{
+		// Token: 0x04000444 RID: 1092
+		NORMAL = 0U,
+		// Token: 0x04000445 RID: 1093
+		LIVEUPDATE = 1U,
+		// Token: 0x04000446 RID: 1094
+		ALLOW_MISSING_PLUGINS = 2U,
+		// Token: 0x04000447 RID: 1095
+		SYNCHRONOUS_UPDATE = 4U,
+		// Token: 0x04000448 RID: 1096
+		DEFERRED_CALLBACKS = 8U,
+		// Token: 0x04000449 RID: 1097
+		LOAD_FROM_UPDATE = 16U
+	}
+}

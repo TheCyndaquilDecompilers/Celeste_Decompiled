@@ -1,0 +1,46 @@
+﻿using System;
+
+namespace FMOD
+{
+	// Token: 0x02000010 RID: 16
+	[Flags]
+	public enum CHANNELMASK : uint
+	{
+		// Token: 0x040000BC RID: 188
+		FRONT_LEFT = 1U,
+		// Token: 0x040000BD RID: 189
+		FRONT_RIGHT = 2U,
+		// Token: 0x040000BE RID: 190
+		FRONT_CENTER = 4U,
+		// Token: 0x040000BF RID: 191
+		LOW_FREQUENCY = 8U,
+		// Token: 0x040000C0 RID: 192
+		SURROUND_LEFT = 16U,
+		// Token: 0x040000C1 RID: 193
+		SURROUND_RIGHT = 32U,
+		// Token: 0x040000C2 RID: 194
+		BACK_LEFT = 64U,
+		// Token: 0x040000C3 RID: 195
+		BACK_RIGHT = 128U,
+		// Token: 0x040000C4 RID: 196
+		BACK_CENTER = 256U,
+		// Token: 0x040000C5 RID: 197
+		MONO = 1U,
+		// Token: 0x040000C6 RID: 198
+		STEREO = 3U,
+		// Token: 0x040000C7 RID: 199
+		LRC = 7U,
+		// Token: 0x040000C8 RID: 200
+		QUAD = 51U,
+		// Token: 0x040000C9 RID: 201
+		SURROUND = 55U,
+		// Token: 0x040000CA RID: 202
+		_5POINT1 = 63U,
+		// Token: 0x040000CB RID: 203
+		_5POINT1_REARS = 207U,
+		// Token: 0x040000CC RID: 204
+		_7POINT0 = 247U,
+		// Token: 0x040000CD RID: 205
+		_7POINT1 = 255U
+	}
+}

@@ -1,0 +1,21 @@
+﻿using System;
+
+namespace FMOD
+{
+	// Token: 0x020000A9 RID: 169
+	public enum DSP_THREE_EQ
+	{
+		// Token: 0x04000356 RID: 854
+		LOWGAIN,
+		// Token: 0x04000357 RID: 855
+		MIDGAIN,
+		// Token: 0x04000358 RID: 856
+		HIGHGAIN,
+		// Token: 0x04000359 RID: 857
+		LOWCROSSOVER,
+		// Token: 0x0400035A RID: 858
+		HIGHCROSSOVER,
+		// Token: 0x0400035B RID: 859
+		CROSSOVERSLOPE
+	}
+}

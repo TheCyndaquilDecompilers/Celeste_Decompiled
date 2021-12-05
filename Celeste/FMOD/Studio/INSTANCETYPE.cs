@@ -1,0 +1,27 @@
+﻿using System;
+
+namespace FMOD.Studio
+{
+	// Token: 0x020000DA RID: 218
+	public enum INSTANCETYPE
+	{
+		// Token: 0x04000479 RID: 1145
+		NONE,
+		// Token: 0x0400047A RID: 1146
+		SYSTEM,
+		// Token: 0x0400047B RID: 1147
+		EVENTDESCRIPTION,
+		// Token: 0x0400047C RID: 1148
+		EVENTINSTANCE,
+		// Token: 0x0400047D RID: 1149
+		PARAMETERINSTANCE,
+		// Token: 0x0400047E RID: 1150
+		BUS,
+		// Token: 0x0400047F RID: 1151
+		VCA,
+		// Token: 0x04000480 RID: 1152
+		BANK,
+		// Token: 0x04000481 RID: 1153
+		COMMANDREPLAY
+	}
+}
